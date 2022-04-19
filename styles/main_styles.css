@@ -238,6 +238,7 @@ section
 	border: solid 2px #1b1b1b;
 	overflow: hidden;
 	cursor: pointer;
+	pointer-events: auto;
 }
 .button a
 {
@@ -348,7 +349,7 @@ section
 }
 .main_nav
 {
-	margin-left: 156px;
+	flex:1;
 }
 .main_nav > ul > li
 {
@@ -809,7 +810,10 @@ section
 	height: 950px;
 	background: #FFFFFF;
 	z-index: 2;
+	pointer-events: none;
 }
+
+
 .home_slider_container
 {
 	width: 100%;
@@ -819,6 +823,7 @@ section
 	padding-right: 60px;
 	padding-bottom: 30px;
 }
+
 .home_slider_background
 {
 	position: absolute;
